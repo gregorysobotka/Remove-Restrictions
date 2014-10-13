@@ -1,0 +1,35 @@
+{
+
+   "content_scripts": [
+     {
+      "matches": [
+         "http://www.bellinghamherald.com/*",
+         "http://seattletimes.com/*", 
+         "http://www.nytimes.com/*", 
+         "http://blogs.seattletimes.com/*"],
+
+       "css": ["global/remove.css"],
+       "js": ["minjq.js", "remove.js"]
+
+     },
+     {
+       "matches": ["http://www.independent.co.uk/*"],
+       "css": ["global/remove.css"],
+       "js": ["minjq.js", "scripts/independent_co_uk/remove.js"]
+     }
+   ],
+
+   "description": "Remove those annoying popup modals and 'MUST REGISTER NOW' requests.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3f9PHp5boVyHnnK8AJX3Wpm1noKS1i/lt8Air0PNWpQVbodO1JibPUYO1Y89dqjYIHwrMXEGXCtnDgybuQo0twEtbc/qxthl6eULloPj96O3jE8DgVdG9GtgD+dsxME/h18Z3uZsNZAJkk4wFYICh6VltZenELqIHNu3Lg7wmmCk4/+KiWCXF6EuEMgfUcOqSMR3h7X8M+iiqylcnIyW5alvwQ5mc9KEsbo19MuVuWnvN1OEVuea2OIwK+o9izxqzuxuKP9eYwT/NPAvqW/O5KMosR6FsC+YdbkbhoZ7iFooeGyDpP0F4RGndHmyRoo9jfH2fJALmxy6d8+jB5nltQIDAQAB",
+   "manifest_version": 2,
+   "name": "Remove restrictions",
+   "permissions": [ 
+      "http://www.nytimes.com/*", 
+      "http://blog.seattletimes.com/*", 
+      "http://seattletimes.com/*", 
+      "http://www.bellinghamherald.com/*",
+      "http://www.independent.co.uk/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.19"
+
+}
