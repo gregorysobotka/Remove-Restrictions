@@ -8,14 +8,14 @@
          "http://www.nytimes.com/*", 
          "http://blogs.seattletimes.com/*"],
 
-       "css": ["global/remove.css"],
-       "js": ["minjq.js", "remove.js"]
+       "css": ["global/css/remove.css"],
+       "js": ["global/js/minjq.js", "global/js/remove.js"]
 
      },
      {
        "matches": ["http://www.independent.co.uk/*"],
-       "css": ["global/remove.css"],
-       "js": ["minjq.js", "scripts/independent_co_uk/remove.js"]
+       "css": ["global/css/remove.css"],
+       "js": ["global/js/minjq.js", "js/independent_co_uk/remove.js"]
      }
    ],
 
@@ -30,6 +30,6 @@
       "http://www.bellinghamherald.com/*",
       "http://www.independent.co.uk/*" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.19"
+   "version": "1.2"
 
 }
