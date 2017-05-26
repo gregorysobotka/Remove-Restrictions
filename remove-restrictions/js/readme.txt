@@ -1,1 +1,0 @@
-folder for domain specific js -- best practice for injection to avoid cross site problems.

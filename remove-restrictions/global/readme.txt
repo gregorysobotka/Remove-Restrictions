@@ -1,1 +1,0 @@
-This folder contains globally injected documents (like jQuery).
